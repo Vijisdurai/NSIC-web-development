@@ -1,0 +1,29 @@
+@font-face {
+    font-family: pop;
+    src: url(poppins-Bold.ttf);
+}
+h3{
+    color: yellow;
+    text-decoration: solid black;
+}
+
+h1{
+    color: red;
+    text-decoration: solid black;
+}
+.box{
+    height: 10px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+    border-color: 2px black;
+    padding: 10px 20px 40px 10px;
+    border: 2px solid black;
+}
+.container{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    margin: 10px;
+    
+}
