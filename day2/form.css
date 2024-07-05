@@ -1,0 +1,25 @@
+body{
+    background-color: #ADD8E6;
+    border: rgb(14, 65, 218) solid;
+    margin: 15px;
+    color: #0047AB;
+    
+}
+img{
+    width: 100%;
+}
+div{
+    text-align: left;
+    padding-left: 1%;
+    font-size: larger;
+    font-weight: bold;
+    tab-size: 10%;
+}
+input{
+    background-color: #ADD8E6;
+    border: 1px solid #0047AB;
+    border-bottom: 2px solid #0047AB;
+}
+select{
+    background-color: #ADD8E6;
+}
