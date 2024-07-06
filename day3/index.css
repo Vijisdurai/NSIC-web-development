@@ -64,7 +64,7 @@ body{
     flex-grow: 1;
     margin: 0px 8px;
     border: solid 5px red;
-    background-color: ;
+    background-color: aqua;
 }
 .middle-column div + div{
     margin-top: 8px;
