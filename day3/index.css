@@ -35,7 +35,7 @@ body{
 .box3{
     height: 90%;
     width: 100%;
-    background-color: blanchedalmond;
+    background-color: rgb(227, 143, 16);
     border: 5px solid black;
     flex-grow: 1;
     display: flex;
@@ -44,7 +44,7 @@ body{
 }
 #box4{
     flex-grow: 2;
-    background-color:whitesmoke;
+    background-color:rgb(232, 186, 48);
     border: 5px solid rgb(181, 231, 16);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -54,18 +54,28 @@ body{
 .middle-column{
     flex-grow: 1;
     background-color:whitesmoke;
-    border: 5px solid rgb(44, 156, 242);
     text-align: center;
     font-size: 40;
     font-weight:900;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .middle-column div{
     flex-grow: 1;
-    margin: 0 8px;
+    margin: 0px 8px;
     border: solid 5px red;
-
+    background-color: aqua;
+}
+.middle-column div + div{
+    margin-top: 8px;
+}
+#box8{
+    flex-grow: 1;
+    border: solid 5px slategray;
+    text-align: center;
+    font-size: 40;
+    font-weight:900;
+    background-color: blanchedalmond;
 }
 
 
